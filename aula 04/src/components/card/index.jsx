@@ -24,8 +24,11 @@ export function Card({
 
         <div className="titlePrice">
           <h1>{title}</h1>
-          <strong style={enterprise ? { display: "none" } : {}}>
-            R$
+          <strong
+            className="priceTag"
+            style={enterprise ? { display: "none" } : {}}
+          >
+            <span>R$</span>
             {price}
             <span>/mês</span>
           </strong>
