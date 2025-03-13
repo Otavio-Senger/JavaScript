@@ -1,5 +1,5 @@
 .container {
-  background-color: #f3f2f2;
+  background-color: var(--baseCard);
   width: 256;
   height: 310;
   border-top-left-radius: 6px;
@@ -28,32 +28,32 @@
   color: #c47f17;
 } */
 .title {
-  font-family: "Baloo 2", sans-serif;
+  font: var(--titleTitleS);
   font-weight: 700;
   font-size: 20px;
   line-height: 130%;
   letter-spacing: 0%;
   text-align: center;
   vertical-align: bottom;
-  color: #403937;
+  color: var(--baseSubtitle);
 }
 .description {
-  font-family: "Roboto", sans-serif;
+  font: var(--textRegularS);
   font-weight: 400;
   font-size: 14px;
   line-height: 130%;
   letter-spacing: 0%;
   text-align: center;
-  color: #8d8686;
+  color: var(--baseLabel);
 }
 .price {
-  font-family: "Baloo 2", sans-serif;
+  font: var(--titleTitleM);
   font-weight: 800;
   font-size: 24px;
   line-height: 130%;
   letter-spacing: 0%;
   text-align: right;
-  color: #403937;
+  color: var(--baseSubtitle);
   display: flex;
   align-items: center;
   gap: 1px;
@@ -70,10 +70,10 @@
   display: flex;
   align-items: center;
   gap: 5px;
-  background-color: #e6e5e5;
+  background-color: var(--baseButton);
   padding: 5px;
   border-radius: 3px;
-  font-family: "Roboto", sans-serif;
+  font: var(--textRegularM);
   font-weight: 400;
   font-size: 16px;
   line-height: 130%;
@@ -93,16 +93,16 @@
   border-radius: 6px;
   gap: 8px;
   padding: 8px;
-  background-color: #4b2995;
+  background-color: var(--brandPurpleDark);
 }
 button {
   border: none;
-  background-color: #e6e5e5;
+  background-color: var(--baseButton);
 }
 .image {
   margin-top: -15px;
 }
-.tag{
+.tag {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -122,8 +122,8 @@ button {
 } */
 
 .tag span {
-  color: #c47f17;
-  background-color: #f1e9c9;
+  color: var(--brandYellowDark);
+  background-color: var(--brandYellowLight);
   text-transform: uppercase;
   padding: 4px 8px;
   border-radius: 100px;
@@ -132,6 +132,5 @@ button {
   font-weight: 700;
   margin-bottom: 16px;
   margin-top: 100px;
-  font-family: "Roboto", sans-serif;
-
+  font: var(--componentsTag);
 }

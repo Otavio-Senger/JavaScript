@@ -7,6 +7,23 @@
 :root {
   --roboto: "Roboto", sans-serif;
   --baloo: "Baloo 2", sans-serif;
+  --baseCard: #F3F2F2;
+  --brandYellowLight: #F1E9C9;
+  --brandYellowDark: #C47F17;
+  --baseSubtitle: #403937;
+  --brandPurpleDark: #4B2995;
+  --baseButton: #E6E5E5;
+  --brandPurple: #8047F8;
+  --baseText: #574F4D;
+  --baseLabel: #8D8686;
+
+  --componentsTag: 700 10px/130% var(--roboto);
+  --titleTitleS: 700 20px/130% var(--baloo);
+  --textRegularS: 400 14px/130% var(--roboto);
+  --titleTitleM: 800 24px/130% var(--baloo);
+  --textRegularM: 400 16px/130% var(--roboto);
+
+
 }
 
 ul {
