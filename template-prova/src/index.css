@@ -7,15 +7,16 @@
 :root {
   --roboto: "Roboto", sans-serif;
   --baloo: "Baloo 2", sans-serif;
-  --baseCard: #F3F2F2;
-  --brandYellowLight: #F1E9C9;
-  --brandYellowDark: #C47F17;
+  --baseCard: #f3f2f2;
+  --brandYellowLight: #f1e9c9;
+  --brandYellowDark: #c47f17;
   --baseSubtitle: #403937;
-  --brandPurpleDark: #4B2995;
-  --baseButton: #E6E5E5;
-  --brandPurple: #8047F8;
-  --baseText: #574F4D;
-  --baseLabel: #8D8686;
+  --brandPurpleDark: #4b2995;
+  --baseButton: #e6e5e5;
+  --brandPurple: #8047f8;
+  --baseText: #574f4d;
+  --baseLabel: #8d8686;
+  --brandYellow: #dbac2c;
 
   --componentsTag: 700 10px/130% var(--roboto);
   --titleTitleS: 700 20px/130% var(--baloo);
@@ -23,7 +24,12 @@
   --titleTitleM: 800 24px/130% var(--baloo);
   --textRegularM: 400 16px/130% var(--roboto);
 
+  /*   checkout */
 
+  --titleTitleXS: 700 18px/130% var(--baloo);
+  --textBoldM: 700 16px/130% var(--roboto);
+  --textBoldL: 700 20px/130% var(--roboto);
+  --componentsButtonS: 400 12px/160% var(--roboto);
 }
 
 ul {
@@ -111,11 +117,10 @@ section {
   }
 }
 
-.grid{
+.grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   row-gap: 40px;
   justify-items: center;
   gap: 20px;
-  
 }

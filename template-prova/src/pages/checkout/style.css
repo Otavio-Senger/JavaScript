@@ -1,0 +1,390 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.titleComplete {
+  height: 23px;
+  top: 144px;
+  left: 160px;
+  font: var(--titleTitleXS);
+  position: absolute;
+}
+.completeseupedido {
+  width: 640px;
+  height: 372px;
+  gap: 32px;
+  border-radius: 6px;
+  background-color: var(--baseCard);
+  margin-left: 160px;
+  margin-top: 78px;
+  padding: 40px;
+}
+.titleAndSubEntega {
+  width: 530px;
+  height: 44px;
+  gap: 2px;
+  display: flex;
+  flex-direction: column;
+}
+.entregaTitle {
+  width: 530px;
+  height: 21px;
+  font: var(--textRegularM);
+}
+.TitleAndIconLocation {
+  display: flex;
+  gap: 8px;
+}
+
+.subEntrega {
+  width: 530px;
+  height: 21px;
+  font: var(--textRegularS);
+  margin-left: 31px;
+}
+.cep {
+  width: 200px;
+  height: 42px;
+  border-radius: 4px;
+  padding: 12px;
+  border-width: 1px;
+  font: var(--textRegularS);
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+.rua {
+  width: 560px;
+  height: 42px;
+  gap: 4px;
+  border-radius: 4px;
+  padding: 12px;
+  border-width: 1px;
+  font: var(--textRegularS);
+  margin-bottom: 16px;
+}
+.number {
+  width: 200px;
+  height: 42px;
+  gap: 4px;
+  border-radius: 4px;
+  padding: 12px;
+  border-width: 1px;
+  font: var(--textRegularS);
+  margin-bottom: 16px;
+  margin-right: 12px;
+}
+.complemento {
+  width: 348px;
+  height: 42px;
+  gap: 4px;
+  border-radius: 4px;
+  padding: 12px;
+  border-width: 1px;
+  font: var(--textRegularS);
+  word-spacing: 170px;
+  margin-bottom: 16px;
+}
+
+.bairro {
+  width: 200px;
+  height: 42px;
+  gap: 4px;
+  border-radius: 4px;
+  padding: 12px;
+  border-width: 1px;
+  font: var(--textRegularS);
+  margin-bottom: 16px;
+  margin-right: 12px;
+}
+.city {
+  width: 276px;
+  height: 42px;
+  gap: 4px;
+  border-radius: 4px;
+  padding: 12px;
+  border-width: 1px;
+  font: var(--textRegularS);
+  margin-bottom: 16px;
+  margin-right: 12px;
+}
+.uf {
+  width: 60px;
+  height: 42px;
+  gap: 4px;
+  border-radius: 4px;
+  padding: 12px;
+  border-width: 1px;
+  font: var(--textRegularS);
+  margin-bottom: 16px;
+}
+.pagamento {
+  width: 640px;
+  height: 207px;
+  gap: 32px;
+  border-radius: 6px;
+  padding: 40px;
+  background-color: var(--baseCard);
+  margin-top: 12px;
+  margin-left: 160px;
+}
+
+.titleAndIconPagamento {
+  display: flex;
+  gap: 8px;
+}
+
+.pagamentoAndSub {
+  width: 530px;
+  height: 44px;
+  gap: 2px;
+  display: flex;
+  flex-direction: column;
+}
+
+#titlePagamento {
+  font: var(--textRegularM);
+  width: 530px;
+  height: 21px;
+}
+.subPagamento {
+  font: var(--textRegularS);
+  width: 530px;
+  height: 21px;
+  margin-left: 31px;
+}
+
+.buttonsCards {
+  width: 560px;
+  height: 51px;
+  gap: 12px;
+  display: flex;
+  margin-top: 32px;
+}
+
+.credito,
+.debito,
+.dinheiro {
+  width: 178.6666717529297px;
+  height: 51px;
+  border-radius: 6px;
+  font: var(--componentsButtonS);
+  align-items: center;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.titleSelecionados {
+  font: var(--titleTitleXS);
+  height: 23px;
+  top: 144px;
+  left: 832px;
+  width: 640px;
+  position: absolute;
+}
+.cafesselecionados {
+  width: 448px;
+  height: 498px;
+  top: 182px;
+  left: 832px;
+  gap: 24px;
+  padding: 40px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 44px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 44px;
+  border-bottom-width: 2px;
+  background-color: var(--baseCard);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+.IMGexpresso {
+  width: 64px;
+  height: 64px;
+}
+.IMGlatte {
+  width: 64px;
+  height: 64px;
+}
+.imgTitleContador1Delete1 {
+  width: 255px;
+  height: 64px;
+  gap: 20px;
+  display: flex;
+}
+.expresso {
+  width: 368px;
+  height: 80px;
+  justify-content: space-between;
+  padding-top: 8px;
+  padding-right: 4px;
+  padding-bottom: 8px;
+  padding-left: 4px;
+  display: flex;
+}
+.titleExpresso {
+  height: 21px;
+  font: var(--textRegularM);
+}
+
+.buttonsExpresso {
+  width: 171px;
+  height: 32px;
+  gap: 8px;
+  display: flex;
+}
+.contador1 {
+  width: 72px;
+  height: 32px;
+  gap: 4px;
+  border-radius: 6px;
+  padding: 8px;
+  display: flex;
+  background-color: var(--baseButton);
+  align-items: center;
+  justify-content: center;
+}
+.delete1 {
+  width: 91px;
+  height: 32px;
+  gap: 4px;
+  border-radius: 6px;
+  padding-right: 8px;
+  padding-left: 8px;
+  display: flex;
+  align-items: center;
+}
+.titleAndButtonsExpresso {
+  width: 171px;
+  height: 61px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.priceExpresso {
+  width: 55px;
+  height: 21px;
+  margin-left: 50px;
+  font: var(--textBoldM);
+}
+.latte {
+  width: 368px;
+  height: 80px;
+  justify-content: space-between;
+  padding-top: 8px;
+  padding-right: 4px;
+  padding-bottom: 8px;
+  padding-left: 4px;
+  display: flex;
+}
+.imgLatteContador2delete2 {
+  width: 255px;
+  height: 64px;
+  gap: 20px;
+  display: flex;
+}
+.titleLatte {
+  width: 37px;
+  height: 21px;
+  font: var(--textRegularM);
+}
+.buttonsLatte {
+  width: 171px;
+  height: 32px;
+  gap: 8px;
+  display: flex;
+}
+.contador2 {
+  width: 72px;
+  height: 32px;
+  gap: 4px;
+  border-radius: 6px;
+  padding: 8px;
+  display: flex;
+  background-color: var(--baseButton);
+  align-items: center;
+  justify-content: center;
+}
+.delete2 {
+  width: 91px;
+  height: 32px;
+  gap: 4px;
+  border-radius: 6px;
+  padding-right: 8px;
+  padding-left: 8px;
+  display: flex;
+  align-items: center;
+}
+.titleAndButtonsLatte {
+  width: 171px;
+  height: 61px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.priceLatte {
+  width: 55px;
+  height: 21px;
+  margin-left: 50px;
+  font: var(--textBoldM);
+}
+.totalADNentrega {
+  width: 368px;
+  height: 92px;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.entrega {
+  width: 368px;
+  height: 21px;
+  justify-content: space-between;
+}
+.totalItensTitle,
+.entrega {
+  font: var(--textRegularS);
+}
+.priceTotalItens,
+.priceEntrega {
+  font: var(--textRegularM);
+}
+.totalItens,
+.entrega {
+  width: 368px;
+  height: 21px;
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 12px;
+}
+.total {
+  width: 368px;
+  height: 26px;
+  justify-content: space-between;
+  display: flex;
+}
+.totalTitle,
+.priceTotal {
+  font: var(--textBoldL);
+  margin-top: 12px;
+}
+.confirmar {
+  width: 368px;
+  height: 46px;
+  gap: 4px;
+  border-radius: 6px;
+  padding-top: 12px;
+  padding-right: 8px;
+  padding-bottom: 12px;
+  padding-left: 8px;
+  background-color: var(--brandYellow);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+/* para o gap, usar o display: flex */
