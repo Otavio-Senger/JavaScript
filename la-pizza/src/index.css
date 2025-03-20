@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* considera toda a tela */
+  font-family: "Inter", sans-serif;
+}
+:root {
+  --brandcolor: #ffbd48;
+  --dark10: #2e2e2e;
+  --dark20: #fefbf4;
+  --dark30: #fff;
+}
+.container {
+  width: 100%; /* todo o espço da tela */
+  height: 37.5rem; /* 1 rem = 600px --- ou dar alt + z */
+  background: url("./assets/la-pizza/image-1.png") center/cover no-repeat; /* centro da tela - cobrir toda a div - não repetir a imagem */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  width: 37.25rem;
+  height: 24.625rem;
+}
+.products-containers {
+  background: url("./assets/la-pizza/bg.png") center/cover no-repeat;
+  height: 46.625rem;
+
+  display: flex;
+  align-items: center;
+ 
+  flex-direction: column;
+}
+.title {
+  padding-top: 9rem;
+  padding-bottom: 3.125rem;
+
+  font-size: 2.5rem;
+  font-weight: 600;
+}
