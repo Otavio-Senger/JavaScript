@@ -1,55 +1,83 @@
-.card{
-    width: 17.5rem;
-    height: 18.75rem;
-    background-color: var(--dark20);
-    border: 2px solid #fff5de;
-    border-radius: 1rem;
-    position: relative;
+.card {
+  width: 17.5rem;
+  height: 18.75rem;
+  background-color: var(--dark20);
+  border: 2px solid #fff5de;
+  border-radius: 1rem;
+  position: relative;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 2rem;
 }
-.product-img{
-    position: absolute;
-    top: -2.75rem;
+.product-img {
+  position: absolute;
+  top: -2.75rem;
 
-    width: 7.5rem;
-    height: 7.5rem;
+  width: 7.5rem;
+  height: 7.5rem;
+}
+.fav-btn {
+  position: absolute;
+  right: 1rem;
+  border: 0.125rem solid #ff3536;
+  padding: 0.4375rem;
+  border-radius: 0.5rem;
+  background-color: #ffd4c9;
+  display: flex;
+  align-items: center;
+  transform: translateY(-50%);
 }
 
-.product-details{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
+.product-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
-.product-details h1{
-    font-size: 1.25rem;
-    font-weight: 600;
-    margin-top: 5.75rem;
-    
+.product-details h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 5.75rem;
 }
-.product-details p{
-    font-size: 1rem;
-    line-height: 150%;
+.product-details p {
+  font-size: 1rem;
+  line-height: 150%;
 }
-.product-details strong{
-    font-size: 2rem;
-    font-weight: 600;
+.product-details strong {
+  font-size: 2rem;
+  font-weight: 600;
 }
-button{
-    outline: none;
-    border: none;
-    background-color: var(--brandcolor);
-    text-transform: uppercase;
-    font-size: 0.875rem;
-    font-weight: 600;
-    border-radius: 1.5625rem;
-    padding: 0.75rem 2.5rem;
-    position: absolute;
-    bottom: 0;
-    transform: translateY(50%);
-
+.checkout-btn {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(50%);
+}
+.d-title span:first-child {
+  color: #ffbd48;
+}
+.d-title span:nth-child(2) {
+  color: #ff3536;
+}
+.d-title span:last-child {
+  color: #60bb28;
+}
+.history {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.8);
+}
+button {
+  outline: none;
+  border: none;
+  background-color: var(--brandcolor);
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 1.5625rem;
+  padding: 0.75rem 2.5rem;
+  cursor: pointer;
+  width: max-content; /* considera os padding e o tamanho da fonte para definir o tamanho */
 }
