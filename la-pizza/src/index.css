@@ -95,3 +95,31 @@
     width: 20.4375rem;
   }
 }
+
+@media screen and (min-width: 48rem) {
+  .container {
+    height: 25rem;
+  }
+  .logo {
+    width: 18.75rem;
+    height: 12.4131rem;
+  }
+  .title {
+    padding-top: 4rem;
+  }
+  .product {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 6.75rem;
+  }
+  .about {
+    flex-direction: column;
+  }
+  .about img {
+    width: 44rem;
+    height: 25rem;
+  }
+  .descrition {
+    width: 44rem;
+  }
+}
