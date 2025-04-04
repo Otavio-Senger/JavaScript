@@ -1,14 +1,37 @@
-import { Apple, EllipsisVertical } from "lucide-react";
+import {
+  Apple,
+  Sandwich,
+  Carrot,
+  Milk,
+  Beef,
+  EllipsisVertical,
+} from "lucide-react";
+import "./styles.css";
 
-export function Product() {
+const icons = {
+  fruta: Apple,
+  padaria: Sandwich,
+  legume: Carrot,
+  bebida: Milk,
+  carne: Beef,
+};
+
+export function Product({ productName, quantity, type }) {
+  const Icon = icons[type] || Apple;
   return (
-    <div>
-      <div>
-        <p>Maçã</p>
-        <span>2 unidades</span>
+    <div className="card-product">
+      <div className="details">
+        <p>{productName}</p>
+        <span>{quantity}</span>
       </div>
-      <Apple size={16} />
-      <EllipsisVertical size={20} />
+
+      <div className="category">
+        <p className={`tag ${type}`}>
+          <Icon size={16} />
+          {type}
+        </p>
+        <EllipsisVertical size={20} color="#a881e6" />
+      </div>
     </div>
   );
 }
