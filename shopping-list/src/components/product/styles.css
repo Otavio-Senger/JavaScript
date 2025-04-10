@@ -9,47 +9,56 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .category {
   display: flex;
   align-items: center;
-  gap: 0.75 rem;
+  gap: 0.75rem;
 }
+
 .details p {
   font: var(--heading-2);
   color: var(--gray-100);
   padding-bottom: 0.125rem;
   text-transform: capitalize;
 }
+
 .details span {
   font: var(--body);
   color: var(--gray-200);
 }
-.tag{
-    font: var(--tag);
-    
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding: 0.5rem 1rem;
-    border-radius: 62.4375rem;
+
+.tag {
+  font: var(--tag);
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 62.4375rem;
 }
-.tag.fruta{
-    color: var(--orange);
-    background-color: var(--orange-dark);
+
+.tag.fruta {
+  color: var(--orange);
+  background-color: var(--orange-dark);
 }
-.tag.padaria{
-    color: var(--yellow);
-    background-color: var(--yellow-dark);
+
+.tag.padaria {
+  color: var(--yellow);
+  background-color: var(--yellow-dark);
 }
-.tag.bebida{
-    color: var(--blue);
-    background-color: var(--blue-dark);
+
+.tag.bebida {
+  color: var(--blue);
+  background-color: var(--blue-dark);
 }
-.tag.legume{
-    color: var(--green);
-    background-color: var(--green-dark);
+
+.tag.legume {
+  color: var(--green);
+  background-color: var(--green-dark);
 }
-.tag.carne{
-    color: var(--pink);
-    background-color: var(--pink-dark);
+
+.tag.carne {
+  color: var(--pink);
+  background-color: var(--pink-dark);
 }

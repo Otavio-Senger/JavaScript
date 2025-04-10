@@ -26,12 +26,13 @@ export function App() {
         <div className="product-list">
           {productList.map(
             // desestruturação
-            ({ nome, quantidade, tipo }, index) => (
+            ({ nome, quantidade, tipo, categoria }, index) => (
               <Product
                 key={index}
                 productName={nome}
                 quantity={quantidade}
                 type={tipo}
+                category={categoria}
               />
             )
           )}

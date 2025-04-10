@@ -1,11 +1,14 @@
 import "./styles.css";
 import { Plus } from "lucide-react";
 import { useState } from "react";
+import { Category, categories } from "../category"
+
 
 export function Form({ onAddProduct }) {
   const [nome, setNome] = useState("");
   const [quantidade, setQuantidade] = useState("");
   const [tipo, setTipo] = useState("");
+  const [categoria, setCategoria] = useState(categories[0]);
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -14,11 +17,13 @@ export function Form({ onAddProduct }) {
       nome,
       quantidade,
       tipo,
+      categoria,
     });
 
     setNome("");
     setQuantidade(1);
     setTipo("un");
+    setCategoria(categories[0])
   }
 
   /*  const [input, setInput] = useState("");
@@ -65,6 +70,9 @@ export function Form({ onAddProduct }) {
 
       <div className="item-input">
         <label htmlFor="category">Categoria</label>
+        <Category
+          selectedCategory={categoria}
+          onChange={(cat) => setCategoria(cat)} />
       </div>
 
       <button type="submit">

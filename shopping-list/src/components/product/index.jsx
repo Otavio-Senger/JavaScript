@@ -8,26 +8,26 @@ import {
 } from "lucide-react";
 import "./styles.css";
 
-const icons = {
+/* const icons = {
   fruta: Apple,
   padaria: Sandwich,
   legume: Carrot,
   bebida: Milk,
   carne: Beef,
-};
+}; */
 
-export function Product({ productName, quantity, type }) {
-  const Icon = icons[type] || Apple;
+export function Product({ productName, quantity, type, category }) {
+  const Icon = category?.icon;
   return (
     <div className="card-product">
       <div className="details">
         <p>{productName}</p>
-        <span>{quantity}</span>
+        <span>{quantity} {type}</span>
       </div>
 
       <div className="category">
         <p className={`tag ${type}`}>
-          <Icon size={16} />
+          {Icon && <Icon size={16} color={category.color} />}
           {type}
         </p>
         <EllipsisVertical size={20} color="#a881e6" />
